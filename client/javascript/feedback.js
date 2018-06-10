@@ -3,7 +3,7 @@ import {Questions} from '../../models/questions.js';
 
 import '../html/feedback.html';
 import '../html/body.html';
-
+//comment
 Template.feedback.helpers({ //where you place functions/methods
   myTitle:function() {      //to be called only in feedback template
   	return "Feedback App";
