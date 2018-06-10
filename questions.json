@@ -1,0 +1,60 @@
+[{
+        "text": "What is your gender?",
+        "type": "mcq",
+        "choices": [{
+                "text": "male"
+            },
+            {
+                "text": "female"
+            }
+        ],
+        "result": []
+    },
+    {
+        "text": "How do you rate MeteorJS usefulness?",
+        "type": "mcq",
+        "choices": [{
+                "text": 1
+            },
+            {
+                "text": 2
+            },
+            {
+                "text": 3
+            },
+            {
+                "text": 4
+            },
+            {
+                "text": 5
+            }
+        ],
+        "result": []
+    },
+    {
+        "text": "How would you rate Nicholas Ooi as a teacher for this Orbital Tutorial?",
+        "type": "mcq",
+        "choices": [{
+                "text": 1
+            },
+            {
+                "text": 2
+            },
+            {
+                "text": 3
+            },
+            {
+                "text": 4
+            },
+            {
+                "text": 5
+            }
+        ],
+        "result": []
+    },
+    {
+        "text": "Is there any comments that you would like to give?",
+        "type": "freetext",
+        "result": []
+    }
+]

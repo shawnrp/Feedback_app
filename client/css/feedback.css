@@ -1,0 +1,29 @@
+body {
+    background: url("/images/bg.jpg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: "Lato";
+}
+
+.header {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+.myTitle {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.feedbackBody {
+    color: #333;
+    background: #fff;
+    border: 1px solid #eee;
+    box-shadow: 0px 7px 25px 3px #aaa;
+    padding-top: 20px;
+    padding-bottom: 200px;
+}

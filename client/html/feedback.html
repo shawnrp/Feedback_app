@@ -1,0 +1,52 @@
+<template name="feedback">
+	<div class="pure-g center">
+		<div class="pure-u-1-3">
+		</div>
+
+		<div class="pure-u-1-3 feedbackBody">
+			<span>
+				{{myTitle}} <!-- how to call a function or attribute from javascript in Meteor to return a result -->
+			</span>
+		</div>
+
+		<div class="pure-u-1-3">
+		</div>
+	</div>
+
+	<!-- start of feedbackBody -->
+    <div class="pure-u-1-3 feedbackBody">
+      <span>
+        {{myTitle}}
+      </span>
+      <div class="questionBody">
+        <form id="feedbackForm" class="pure-form">
+          <ul>
+            {{#each questions}}
+            <li>
+              <h4>
+                {{text}}
+              </h4>
+              {{#if checkType type}}
+              <ul>
+                {{#each choices}}
+                <li>
+                  <label class="pure-radio">
+                    <input name="{{../_id._str}}" type="radio" value="{{text}}" />
+                    {{text}}
+                  </label>
+                </li>
+                {{/each}}
+              </ul>
+              {{else}}
+              <textarea name="{{_id._str}}"></textarea>
+              {{/if}}
+            </li>
+            {{/each}}
+          </ul>
+          <input class="pure-button" type="submit" value="Submit Feedback" />
+        </form>
+      </div>
+    </div> 
+    <!-- end of feedbackBody -->
+
+</template>
